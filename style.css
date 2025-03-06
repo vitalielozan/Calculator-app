@@ -1,13 +1,17 @@
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   margin: 0;
   background-color: #141219;
   font-family: Arial, sans-serif;
 }
-
+h1 {
+  color: #fff;
+  font-style: italic;
+}
 .calculator {
   padding: 20px;
   border-radius: 10px;
